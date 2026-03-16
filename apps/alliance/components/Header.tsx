@@ -32,20 +32,22 @@ export function Header() {
               {item.name}
             </Link>
           ))}
-          <button
-            type="button"
-            data-community="open"
+          <a
+            href="https://likeminds-community-8530fe.circle.so"
+            target="_blank"
+            rel="noopener noreferrer"
             className="text-sm font-medium text-navy-600 hover:text-navy-900 transition-colors"
           >
             Community
-          </button>
-          <button
-            type="button"
-            data-community="open"
+          </a>
+          <a
+            href="https://likeminds-community-8530fe.circle.so"
+            target="_blank"
+            rel="noopener noreferrer"
             className="rounded-md bg-teal-600 px-4 py-2 text-sm font-semibold text-white shadow-sm hover:bg-teal-500 transition-colors"
           >
             Find Your People
-          </button>
+          </a>
         </div>
 
         {/* Mobile menu button */}
@@ -82,23 +84,25 @@ export function Header() {
                 {item.name}
               </Link>
             ))}
-            <button
-              type="button"
-              data-community="open"
+            <a
+              href="https://likeminds-community-8530fe.circle.so"
+              target="_blank"
+              rel="noopener noreferrer"
               onClick={() => setMobileOpen(false)}
               className="block w-full py-2 text-left text-base font-medium text-navy-600 hover:text-navy-900 transition-colors"
             >
               Community
-            </button>
+            </a>
             <div className="pt-3">
-              <button
-                type="button"
-                data-community="open"
+              <a
+                href="https://likeminds-community-8530fe.circle.so"
+                target="_blank"
+                rel="noopener noreferrer"
                 onClick={() => setMobileOpen(false)}
                 className="block w-full rounded-md bg-teal-600 px-4 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-teal-500 transition-colors"
               >
                 Find Your People
-              </button>
+              </a>
             </div>
           </div>
         </div>

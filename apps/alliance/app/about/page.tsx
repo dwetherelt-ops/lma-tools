@@ -13,7 +13,7 @@ export default function AboutPage() {
   return (
     <>
       {/* Hero */}
-      <Section className="bg-gradient-to-b from-navy-50 to-white pt-14 pb-6 sm:pt-20 sm:pb-8">
+      <Section className="bg-gradient-to-b from-navy-50 to-white pt-14 pb-4 sm:pt-16 sm:pb-6">
         <Container>
           <div className="mx-auto max-w-3xl text-center">
             <p className="text-sm font-semibold uppercase tracking-widest text-teal-600">
@@ -30,7 +30,7 @@ export default function AboutPage() {
       {/* Photo + opening */}
       <Section className="bg-white pt-0 pb-4">
         <Container>
-          <div className="mx-auto grid max-w-4xl grid-cols-1 gap-8 lg:grid-cols-5">
+          <div className="mx-auto grid max-w-4xl grid-cols-1 gap-6 lg:grid-cols-5">
             {/* Photo */}
             <div className="flex items-start justify-center lg:col-span-2">
               <div className="relative h-80 w-80 overflow-hidden rounded-2xl">
@@ -82,7 +82,7 @@ export default function AboutPage() {
       <Section className="bg-white pt-0 pb-8">
         <Container>
           <div className="mx-auto max-w-3xl">
-            <article className="space-y-8">
+            <article className="space-y-6">
               {/* Discovering a different explanation */}
               <div>
                 <h2 className="text-2xl font-bold tracking-tight text-navy-900">
@@ -291,7 +291,7 @@ export default function AboutPage() {
             </article>
 
             {/* CTA */}
-            <div className="mt-10 rounded-2xl bg-gradient-to-r from-teal-50 to-navy-50/40 border border-teal-200 p-6 text-center sm:p-6">
+            <div className="mt-8 rounded-2xl bg-gradient-to-r from-teal-50 to-navy-50/40 border border-teal-200 p-6 text-center">
               <p className="text-xl font-bold text-navy-900">
                 If this story resonates with you, you&apos;re not alone.
               </p>

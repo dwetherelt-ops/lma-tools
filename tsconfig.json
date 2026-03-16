@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "paths": {
+      "@like-minds/ui": ["./packages/ui/src"],
+      "@like-minds/db": ["./packages/db/src"],
+      "@like-minds/auth": ["./packages/auth/src"],
+      "@like-minds/types": ["./packages/types/src"]
+    }
+  },
+  "exclude": ["node_modules"]
+}

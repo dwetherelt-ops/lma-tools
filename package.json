@@ -1,0 +1,26 @@
+{
+  "name": "like-minds",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "turbo build",
+    "dev": "turbo dev",
+    "lint": "turbo lint",
+    "type-check": "turbo type-check",
+    "db:generate": "npm run generate --workspace=@like-minds/db",
+    "db:migrate": "npm run migrate --workspace=@like-minds/db",
+    "db:push": "npm run push --workspace=@like-minds/db"
+  },
+  "devDependencies": {
+    "ts-interface-checker": "^0.1.13",
+    "turbo": "^2.4.0",
+    "typescript": "^5.7.0"
+  },
+  "packageManager": "npm@10.9.4",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
